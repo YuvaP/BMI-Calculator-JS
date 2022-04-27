@@ -1,0 +1,51 @@
+<html>
+    
+    
+    <body>
+        <h3><b style="color:red"> Yuva BMI Calculator for Body Mass Index Calculation using the below Formula.</b><br>BMI = (weight/height*height)*703</h4>
+
+            <br><br>
+
+                <p><h4><span style="color:red">Goal:</span> Calculate your Body Mass Index value.</p>
+                <p><span style="text-decoration:underline">How does this BMI app work?</span></p>
+            
+                <ul><i>
+                    <li>The user inputs the Height and Weight.</li>
+                    <li>BMI value is calculated using the BMI formula shown above.</li>
+                    <li>Based on the standard health data, the user gets the result with suggestions.</li>
+                    <li>The user can clear the result and try again.</li>
+                    
+               </i></ul>
+            
+            </h4></p><br><br>
+            
+        <table align="left">
+            <caption><b>BMI Calculator</b></caption>
+        <tr>
+            <th>Height</th>
+            <td><b>Feet:</b><br><input type="text" id="feet"></td>
+            <td><b>Inches:</b><br><input type="text" id="inches"></td>
+                
+        </tr>
+        <tr>
+            <th>Weight</th>
+            <td><b>Pounds:</b><br><input type="text" id="pounds"></td>
+            <td><b>BMI:</b><br><input type="text" id="bmiValue" disabled></td>
+        </tr>
+        <tr>
+            <td id="mybuttons" colspan="3"><input type="button" value="Calculate BMI" onclick="calculateBMI()"> <input type="button" value="CLEAR" onclick=clearValue()></td>
+
+        </tr>
+        <th>Result</th>
+        <td colspan="3"><input type="text" style="width: 100%" id="yourResult" disabled></td>
+        
+        </table>
+        
+
+        <img id="myImage"><img src=""/><br>
+        <script src="BMI_Calculator.js"></script>
+        <link rel="stylesheet" href="BMI_Calculator.css" />
+
+        
+    </body>
+</html>

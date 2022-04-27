@@ -1,0 +1,31 @@
+table,th,td{
+    border: solid 1px blue;
+    width: 20%;
+    border-collapse: collapse;
+   
+}
+th{
+    background-color: cornflowerblue;
+}
+
+#myImage { 
+    position:relative;
+    margin-left: 100px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#myResult{
+   border-right: hidden;
+       }
+
+ #mybuttons{
+   
+   border-right: hidden;
+   border-left: hidden;
+   border-spacing:0 35px;
+   padding-bottom: 50px;
+   padding-top: 20px;
+           
+}
